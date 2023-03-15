@@ -2,15 +2,15 @@
 using namespace std;
 
 int main(){
-    double NilMath, NilBhs, rerata;
+    double NilMath, NilBhsIndo, rerata;
     string status;
 
     cout << "Masukkan Nilai Matematika : ";
     cin >> NilMath;
     cout << "Masukkan Nilai Bahasa : ";
-    cin >> NilBhs;
+    cin >> NilBhsIndo;
 
-    rerata = (NilMath + NilBhs)/2;
+    rerata = (NilMath + NilBhsIndo)/2;
 
     if (rerata >= 60){
         status = "Lulus";
