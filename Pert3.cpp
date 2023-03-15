@@ -40,6 +40,6 @@ int main(){
     cout << "Nilai rata-ratanya : " << rerata(NilMath, NilBIndo);
     cout << "\n Status Kelulusan : " << status(rerata(NilMath, NilBIndo));
     cout << "\n Status Kelulusan : " << status2(rerata(NilMath, NilBIndo), NilMath);
-     cout << "\n Status Kelulusan : " << status3(rerata(NilMath, NilBIndo), NilMath);
+    cout << "\n Status Kelulusan : " << status3(rerata(NilMath, NilBIndo), NilMath);
 }
 
